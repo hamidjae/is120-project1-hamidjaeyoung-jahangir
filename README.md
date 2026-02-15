@@ -2,7 +2,7 @@
 
 This project allowed me to combine the knowledge I gained from this class, as well as the CS260 Web Development class to develop a website in HTML, and then port it over into React.
 
-I went above and beyond on this project by bundling everything together with Vite, and establishing a router between all the components inside of my website by using the ReactRouter. This means that the website is no longer loading the entirety of the different HTML pages, but rather only changing the <main> of the website. The header and the footer are constants that will only be loaded once, and then carried over as the user switches between tabs.
+I went above and beyond on this project by bundling everything together with Vite, and establishing a router between all the components inside of my website by using the ReactRouter. This means that the website is no longer loading the entirety of the different HTML pages, but rather only changing the `<main>` of the website. The header and the footer are constants that will only be loaded once, and then carried over as the user switches between tabs.
 
 I will disclose my use of AI and state that I used it to debug out the display: flex property, which we did not cover in class. Porting over to React is quite new to me, and I resorted to it after I gave it a genuine attempt to figure it out on my own. This allowed me to properly represent my footer and header so that it fits the viewports.
 
@@ -10,14 +10,14 @@ If required, I can easily re-port it back into HTML.
 
 I will justify myself with the necessary requirements:
 
-## Your website should have at least 3 pages, each with a consistent <header> and <footer>.
+## Your website should have at least 3 pages, each with a consistent `<header>` and `<footer>`.
 This has been accomplished! There are three pages (home, projects, resume) that all have a consistent header and footer. As stated before, React is routing it so that whenever the user changes tabs, the header and footer stay constant while the main changes.
 
 ## Include working navigation links to navigate between pages.
-This has also been accomplished via the ReactRouter as well, which uses NavLinks instead of <a>.
+This has also been accomplished via the ReactRouter as well, which uses NavLinks instead of `<a>`.
 
-## Use semantic HTML elements for document structure (<header>, <nav>, <main>, <section>, <article>, <footer>, etc.).
-This has also been accomplished, with <header>, <nav>, <main>, <section>, <article> and <footer> being used. Header, nav and footer are constants, while sections and articles correspond to different cards.
+## Use semantic HTML elements for document structure (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, etc.).
+This has also been accomplished, with `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` and `<footer>` being used. Header, nav and footer are constants, while sections and articles correspond to different cards.
 
 ## All elements should be styled with CSS. Do not leave any default HTML styling.
 This has also been done. I also gave my CSS file a global reset.
