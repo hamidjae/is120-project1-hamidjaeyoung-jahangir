@@ -8,7 +8,7 @@ import { Resume } from './resume/resume';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/is120-project1-hamidjaeyoung-jahangir">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <header>
         <div className="brand">
           <h1 id="site-title">Hamid Jaeyoung Jahangir</h1>
