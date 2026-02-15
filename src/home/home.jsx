@@ -6,6 +6,7 @@ export function Home() {
     <section class="banner">
       <img class="banner-img" src="/meanddad.jpg" alt="Picture of me and my father" />
       <div class="banner-text">
+        <span class="banner-sticker">Incheon Airport</span>
         <h2>That's me!</h2>
         <p>That's a picture of me and my father, right before I left for America. I am a Pakistani-Korean international student currently studying at Brigham Young University.</p>
         <p>It's great to meet you!</p>

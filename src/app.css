@@ -133,6 +133,17 @@ nav a.active {
   height: auto;
 }
 
+.banner-sticker{
+    position: absolute;
+    padding: 3px 5px;
+    background-color:palevioletred;
+    transform: rotate(-20deg);
+    /* Looked at W3 Schools for the transform property */
+    border-radius: 4px;
+    top: 25px;
+    left:5px;
+}
+
 .banner-text {
   padding: 18px;
 }
