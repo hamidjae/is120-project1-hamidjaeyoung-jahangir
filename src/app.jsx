@@ -18,7 +18,7 @@ export default function App() {
 {/* Checks what tab it's selecting, then applies the active class onto it */}
         <nav>
           <ul>
-            <li><NavLink to="/home" className={({ isActive }) => (isActive ? 'active' : undefined)}>Home</NavLink></li>
+            <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : undefined)}>Home</NavLink></li>
             <li><NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : undefined)}>Projects</NavLink></li>
             <li><NavLink to="/resume" className={({ isActive }) => (isActive ? 'active' : undefined)}>Resume</NavLink></li>
           </ul>
