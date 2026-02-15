@@ -1,5 +1,7 @@
 # IS120 Project 1: Personal Portfolio
 
+[Live Link](https://hamidjae.github.io/is120-project1-hamidjaeyoung-jahangir/)
+
 This project allowed me to combine the knowledge I gained from this class, as well as the CS260 Web Development class to develop a website in HTML, and then port it over into React.
 
 I went above and beyond on this project by bundling everything together with Vite, and establishing a router between all the components inside of my website by using the ReactRouter. This means that the website is no longer loading the entirety of the different HTML pages, but rather only changing the `<main>` of the website. The header and the footer are constants that will only be loaded once, and then carried over as the user switches between tabs.
